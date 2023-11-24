@@ -22,7 +22,7 @@ class ShoplistCreateTestCase(TestCase):
         #validate shoplist creation
         assert True
         
-class EventListTestCase(TestCase):
+class ShopListTestCase(TestCase):
     def setUp(self):
         self.reqeust = {
             "user_group":1,
